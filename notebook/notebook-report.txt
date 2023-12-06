@@ -1,0 +1,39 @@
+Summary
+
+1. Analysis Report and insights:
+    - There are some observation on analyzing the data:
+        - 75% of the emails are opened and rest are just gone to spam or bin
+        - Out of 75% of the opened emails only 30% of them are meeting link clicked
+        - And out of 30% of meeting link clicked there are approximately 4% of them not even opened there mails, that may be they 
+          have auto mail as message on receiving an emails
+        - Only 1% people are those that opened, clicked meeting link and responded
+        - .39 correlation between opened and meeting link clicked shows that same 40% people click meeting link and negative 
+          correlation between meeting and responded shows that they are people who responded but not clicked meeting link
+        - 100% of IT_solutions_series mails, 100% email_series_marketing_analytics mails and 100% series_legal series mails are opened
+
+2. model development process:
+    - There are some insigts or observation on model development:
+        - There is need of removing stopwords, stemmer, hi, hey, hello salutation and replace 10min to 10minute like that there may be more words 
+        - I used TFIDF to replace the text data with there Term frequency so that we will give high value to more frequent words in the model
+        - Converted the Series that is email_series through one hot encoder so that we give equal importance to each of the series equally
+        - After that split data to train and test so that we can check accuracy of model on unseen data 
+        - Tried from simple linear model where first thought was as we have very small data so its good to see how simple model behaves and 
+          that gave a low result and its prcision is 50%  but buy recall is low and that we want it to be more to know click marketing campign to be sucessful
+        - Its okay model and its recall is 60% but precision is 53 and its prediction is 68% accurate
+        - Tried more complex model SVG, KNN, XGBoost but nothing worked more good then just simple linear and Decision tree model
+
+
+3. Key finding, Actionable and Improvement:
+    - We can do IT solution, marketing analytics and legal email more as its click ratio is 100%
+    - Only 1% people are responding that is very big issue as the user base is small of 150
+    - Need to increase userbase 
+    - Need to increase data and some more features 
+    - There are many short words in the body and subject so we can remove them to improve the accuracy and decrease the size of model
+    - I augument model data using small small changes but i felt like keeping the original for now
+    - Model new more data to accuratly predict and reply and we need more features like date, time spend etc to add to the dataset
+
+
+
+I hope the above information is useful.
+Thanks
+Shubham Mandowara

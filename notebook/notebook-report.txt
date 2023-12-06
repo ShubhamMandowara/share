@@ -23,7 +23,7 @@ Summary
         - Tried more complex model SVG, KNN, XGBoost but nothing worked more good then just simple linear and Decision tree model
 
 
-Key finding, Actionable and Improvement:
+3. Key finding, Actionable and Improvement:
     - We can do IT solution, marketing analytics and legal email more as its click ratio is 100%
     - Only 1% people are responding that is very big issue as the user base is small of 150
     - Need to increase userbase 

@@ -1,6 +1,6 @@
 Summary
 
-1. Analysis Report and insigts:
+1. Analysis Report and insights:
     - There are some observation on analyzing the data:
         - 75% of the emails are opened and rest are just gone to spam or bin
         - Out of 75% of the opened emails only 30% of them are meeting link clicked
